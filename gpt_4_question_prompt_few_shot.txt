@@ -1,0 +1,40 @@
+I would like you to translate some of the French sentence pairs back into English. Note that these translations are tricky: these sentence pairs can be translated into the exact same sentence in English. When this happens, please use different words for the two sentences, while trying to express the differences in meaning. Now, pay attention to the following examples carefully, and then translate the last sentence pair. 
+
+French:
+Les verres sont cassés.
+Les lunettes sont cassées.
+English:
+The glasses are broken.
+The spectacles are broken.
+
+French:
+Il a réussi à aller à la banque.	
+Il a réussi à atteindre la rive.
+English:
+He finally made it to the bank.
+He finally made it to the river bank.
+
+French:
+Il y a beaucoup de cerfs !
+Cela fait beaucoup de dollars !
+English:
+There are a lot of deer!
+That's a lot of dollars!
+
+French:
+Il va falloir enlever ce grain de beauté.
+Il va falloir se débarrasser de cette taupe.
+English:
+We'll have to get rid of that beauty mark.
+We'll have to get rid of that mole.
+
+French:
+Un motard sur la route.
+Un cycliste sur la route.
+English:
+A motorcyclist on the road.
+A cyclist on the road.
+
+French:
+{sentence_pair}
+English:
