@@ -2,7 +2,7 @@
 Solving CoMMuTE benchmark with GPT-4 and CLIP.
 
 ## How does it work?
-It back translates French (only French for now, but I believe the results would scale to other languages in the CoMMuTE dataset as well) to English using GPT-4, while carefully asking a text-only GPT-4 to disambiguate wordings in English. Then, we use CLIP as a zero-shot classifier to select the English description that better represents the given image. We achieved a 83.8% accuracy on the En->Fr subset, far surpassing the 67.2% accuracy of the proposed approach in the original paper.
+It back translates French (only French for now, but I believe the results would scale to other languages in the CoMMuTE dataset as well) to English using text-only GPT-4, while carefully asking GPT-4 to disambiguate wordings in English. Then, we use CLIP as a zero-shot classifier to select the English description that better represents the given image. We achieved a 83.8% accuracy on the En->Fr subset, far surpassing the 67.2% accuracy of the proposed approach in the original paper.
 
 I believe this method is legitimate because in the original paper "Tackling Ambiguity with Images" by Futeral et al, the authors used **perplexity** of possible options, rather than text similarity, as the accuracy metric for their CoMMuTE dataset and their proposed model. Since perplexity measures the more probable option out of the two given choices, they are essentially using the model as a **classifier**, not a text generator. Our proposed solution also attempts to select the more probable option of the two choices given in the dataset, so it constitutes a fair comparison to the aforementioned paper.
 
